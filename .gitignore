@@ -1,0 +1,59 @@
+# =========================
+# PowerShell Module .gitignore
+# =========================
+
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# PowerShell module build folders
+*.nupkg
+*.snupkg
+*.psm1.build.ps1
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# Pester temporary files
+*.coverage.xml
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# PowerShell history (optional)
+ConsoleHost_history.txt
+
+# Local settings files (if you ever add them)
+local.settings.json
+appsettings.Development.json
+
+# Publish output (if you build before publishing)
+publish/
+
+# Azure / deployment artifacts (future proof)
+.azure/
